@@ -1,0 +1,1 @@
+function [out] = seqreverse(in)n = length(in);out=in(n:-1:1)

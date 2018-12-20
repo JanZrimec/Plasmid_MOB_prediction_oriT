@@ -1,0 +1,13 @@
+function [hostV2] = predictHostV2(mob,W)
+% predictHost Prediction of reportoire of hosts from mob group.
+
+load Host_range_dataV2_30_8_17.mat
+
+if W==1
+   
+else
+    
+end
+
+
+end

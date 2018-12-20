@@ -1,0 +1,1 @@
+function [out] = seqcomplement(in)in = upper(in);n = length(in);for i = 1:n  switch in(i)  case 'A'    out(i) = 'T';  case 'C'    out(i) = 'G';  case 'G'    out(i) = 'C';  case 'T'    out(i) = 'A';  otherwise     out(i) = 'A'; %foolproof  end  end
