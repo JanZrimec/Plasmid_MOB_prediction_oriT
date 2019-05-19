@@ -27,3 +27,15 @@ where:
   * out.rep ... refer to out.repV2 for results published in final revision of paper
   * out.hostV2 ... ranges of potential transfer hosts based on pooling known transfer host clades found in the training sets of either 64 or 200 elements
   * out.repV2 ... ranges of potential incopatibility and replication (Inc/Rep) types based on pooling known Inc/Rep types found in the training sets of either 64 or 200 elements.
+  
+Tested with Matlab 2017b.
+
+------------
+Additional branches:
+## V1-1
+All functions merged to main.m, which is called in the same manner as predictMOB with the above version. Tested with Matlab 2017b and Octave 5.1.
+
+## Octave
+Additional improvements to V1-1 to enable running in Octave without any warnings. Tested with Octave 5.1.  
+
+
